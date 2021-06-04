@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head::head (title='Index')"></head>
+<body>
+<header th:replace="fragments/header::header"></header>
+<main>
+  <!-- Masthead-->
+  <header class="masthead bg-primary text-center">
+    <div class="container d-flex align-items-center flex-column">
+      <!-- Masthead Avatar Image-->
+      <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
+      <!-- Masthead Heading-->
+      <h1 class="masthead-heading text-uppercase mb-0">Laurens Hons</h1>
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <!-- Masthead Subheading-->
+      <p class="masthead-subheading font-weight-light mb-0">Ik ben Laurens Hons, bachelor student Toegepaste informatica aan UC Leuven-Limburg. Dit is een zelfgemaakte portfolio site waar u allerlei informatie over mij kan vinden</p>
+    </div>
+  </header>
+
+
+  <section class="text-secondary text-white text-center" id="cv">
+    <h1 class="page-section-heading text-center text-uppercase text-secondary ">CV</h1>
+    <p>Naam: Laurens Hons</p>
+    <p>Adres: Jules Vandenbemptlaan 33 Heverlee</p>
+    <p>Geboortedatum : 10 April 2000</p>
+    <p>Rijksregisternummer: 00.04.10-143.02</p>
+    <p>Onderwijs: 2e jaar Toegepaste Informatica UCLL</p>
+    <p><b>Ervaring: </b></p>
+    <p>Zwemles leerkracht in Heverleese zwemvereniging. 2018 tot nu</p>
+    <p>Coach basketball Leuven Bears. 2020 tot nu </p>
+    <p>Ober Salons Georges. 2017 tot 2019</p>
+    <p><b>Vakantiewerk</b></p>
+    <p>Ober in Voltaire Heverlee. 2017</p>
+    <p>Leekracht killerbee 2018</p>
+    <p>Kassier Beyfoodconcept Tomorrowland 2019</p>
+    <p>Ober bij de Kansel Zomer 2019</p>
+  </section>
+
+  <!-- Competention Section-->
+  <section class="masthead bg-primary page-section mt-5" id="competenties">
+    <div class="container">
+      <h1 class="page-section-heading text-center text-uppercase text-secondary ">Competenties</h1>
+
+      <p>
+        <b>1.</b>
+      </p>
+
+      <p>
+        <b>2.</b> In het project Hoink 'n Doink hebben we meerdere soorten dataopslag moeten gebruiken. We hebben onze eigen sql database opgezet op de servers van ucll en een image database op de servers van openshift. De sql database hield alle persoonlijke informatie en de inhoud van de site. Deze inhoud kon dan aangepast worden via een webserver die gehost was op openshift.
+      </p>
+
+      <p>
+        <b>3.</b> Het structureel uitwerken van een probleem is meestal geen probleem. Als ik een mentaal beeld heb van waar ik naartoe wil schets ik dit vaak even uit op papier en schrijf ik alles uit.
+      </p>
+      <p>
+        In mijn Bigminer project heb ik veel uit moeten schetsen omdat het zo een complex project is. Er zijn meerdere soorten blokken die hetzelfde gedrag hebben maar ook meerdere soorten blokken die daarop afwijken en hun eigen specifiek gedrag hebben.
+      </p>
+
+      <p>
+        <b>4.</b> Tijdens de labos van Besturingssystemen hebben we veel tijd besteed aan het opzetten van windows server configuraties. Dit is een essentiële toepassing die bijna elk bedrijf gebruikt. Het houdt in een windows server op te zetten en meerdere configuratie opties ontdekken zodat ik al ervaring heb met toepassingen die veel worden gebruikt.
+      </p>
+
+      <p>
+        <b>5.</b>
+      </p>
+
+      <p>
+        <b>6.</b>
+      </p>
+
+      <p>
+        <b>7.</b> In mijn vrije tijd geef ik basketbaltraining aan 14 - 16 jarigen. Ik zit in een team waarbij we een nieuw platform moeten uitkiezen voor de spelers, ouders en coaches. Dit is geen simpele taak aangezien allerhande features ondersteund moeten zijn. We gaan echter critisch te werk en stellen eerst een lijst op met essentiële en eventuele "nice to have" features die we niet noodzakelijk nodig hebben. Op basis hiervan kunnen we een doordachte beslissing maken over welk platform we gaan gebruiken.
+      </p>
+
+      <p>
+        <b>8.</b> In de 2e projectweek hebben we aan een site gewerkt met 5 studenten, waarvan 1 in Indië woonde. Aangezien alle communicatie  in het engels verliep en ik redelijk goed was in engels was ik technical lead dus zou ik alles met Ishan en het team leiden.
+      </p>
+
+      <p>
+        <b>9.</b>
+      </p>
+
+      <p>
+        <b>10.</b>
+      </p>
+
+      <p>
+        <b>11.</b>
+      </p>
+
+      <p>
+        <b>12.</b>
+      </p>
+
+    </div>
+  </section>
+
+  <section class="page-section mt-5" id="projecten">
+    <div class="container">
+      <!-- Contact Section Heading-->
+      <h1 class="page-section-heading text-center text-uppercase text-secondary">Projecten</h1>
+
+      <h2>Lijnvolgende Robot</h2>
+      <p>
+        Een van mijn eerste ervaringen met informatica was in het middelbaar waar ik een lijnvolgende robot heb gebouwd met Arduino en zelfgemaakte stukken hout. Het doel was om een robot te bouwen en die te testen op een wedstrijd in technopolis later dat jaar. Alhoewel onze robot werkte heeft hij het moeijlijkste parkour niet beëindigt.
+      </p>
+      <p>
+        De robot bestond uit 4 motoren voor de 4 wielen, 3 lichtsensoren die we vooraan de auto hadden geplaatst en 1 afstandssensor die de afstand tot het object voor hem kon lezen. Dit was allemaal op een breadboard gezet en verbonden met een arduino controller. Alle code is geschreven in de Arduino taal wat een variatie is van c++.
+      </p>
+
+
+      <h2>Hoink 'n Doink</h2>
+
+      <p>
+        Hoink 'n Doink is een conceptsite waarop je je eigen barbeque kunt samenstellen en online verkopen. Je kan kiezen tussen 3 verschillende onderdelen en de keuze of je de barbeque zelf nog wilt samenstellen.
+      </p>
+      <p>
+        Het idee is ontstaan tijdens de 2e projectweek van het 2e jaar in samenwerking met IBM. Ze gaven ons een paar uur de tijd voor een business idee en dit is wat we verzonnen hebben. Alles runde op het redshift opencloud platform, tijdelijk beschikbaar gesteld door IBM.
+      </p>
+      <p>
+        Tijdens dit project heb ik veel dingen geleerd zoals Vue, redshift, database integratie en nog veel meer. We waren met 4 en de site moest af zijn na een week. We hebben niet alles vervuld wat we wouden doen maar wat we hebben werkt wel.
+      </p>
+
+      <h2>BigMiner</h2>
+      <p>
+        Ik heb op het begin van het 2e semester een persoonlijk project gestart. Het is een spel, helemaal geschreven in C# en draait op Unity, een gratis game engine. Het idee is om een karakter te hebben die grondstoffen zoekt en hiermee zijn gereedschap upgrade enz. Het is gericht op android maar kan ook makkelijk op ios werken.
+      </p>
+      <p>
+        Ik probeer zoveel mogelijk dingen toe te passen die ik in de les heb gezien. Bv een automatische build action waardoor builds automatisch worden compiled (CN), meerdere OO patronen worden ingewerkt in het project (OOO) en het is allemaal geschreven in C# (VGO).
+      </p>
+
+
+      <h2>Bedreigingen</h2>
+      <p>
+        Een nadeel wat mij heel mijn leven gaat blijven hinderen is mijn slecht geheugen. Ik probeer mijn routines zo constant mogelijk te maken en alles in mijn online agenda te zetten om dit te voorkomen maar dit helpt niet met het programmeren. Ik moet programmeertalen vaak herhalen als ik vloeiend wil blijven in die taal. Dit betekent ook dat als ik nieuwe platformen/talen wil leren moet ik er bewust van zijn dat deze aspecten langer zullen duren.
+      </p>
+      <p>
+        Ik ben ook bang dat ik op een gegeven moment niet meer gemotiveerd ga kunnen zijn om een nieuwe taal te leren. Dat er een punt gaat zijn dat ik ga stagneren in mijn evolutie als een programmeur en dat mijn vaardigheden irrelevant gaan zijn. Maar ook al is de huidige situatie zeer demotiverend in de wereld heb ik echter nog niet het gevoel dat ik programmeren “beu” ben.
+      </p>
+
+
+    </div>
+  </section>
+
+
+  <!-- Footer-->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <!-- Footer Location-->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Tel</h4>
+          <p class="lead mb-0">
+            +324 71 73 28 96
+          </p>
+        </div>
+        <!-- Footer Social Icons-->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Contacteer me</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/Laurens.Hons"><i class="fab fa-fw fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/LaurensHons"><i class="fab fa-fw fa-twitter"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/laurens-hons-3a846b206/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Laurens54321"><i class="fab fa-fw fa-dribbble"></i></a>
+        </div>
+        <!-- Footer About Text-->
+        <div class="col-lg-4">
+          <h4 class="text-uppercase mb-4">E-mail</h4>
+          <p class="lead mb-0">
+            Laurens.Hons@gmail.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
